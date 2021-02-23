@@ -1,7 +1,7 @@
 import csv
 from loguru import logger
 
-from queuedWriters.queueWriter import QueueWriter
+from queueWriter import QueueWriter
 
 
 class CSVQueueWriter(QueueWriter):
