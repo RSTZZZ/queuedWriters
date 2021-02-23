@@ -1,4 +1,4 @@
-name: queuedWriters
+name: queuedwriters
 
 channels:
   - complexdatalab

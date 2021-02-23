@@ -1,7 +1,7 @@
 import json
 from loguru import logger
 
-from queueWriter import QueueWriter
+from queuedwriters.queueWriter import QueueWriter
 
 
 class JSONQueueWriter(QueueWriter):
