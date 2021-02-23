@@ -1,0 +1,18 @@
+name: queuedWriters
+
+channels:
+  - complexdatalab
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # core project dependencies
+  - python>=3.7
+  - loguru >=0.5.0
+
+  # development dependencies
+  - black==19.10b0
+  - conda-smithy==3.7.3
+  - conda-build==3.18.11
+  - watchdog==0.10.2
