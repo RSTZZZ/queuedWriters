@@ -1,6 +1,6 @@
 package:
   name: queuedwriters
-  version: 0.0.1
+  version: 0.0.2
 
 source:
   git_url: https://github.com/RSTZZZ/queuedWriters.git

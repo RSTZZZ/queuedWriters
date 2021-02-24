@@ -24,7 +24,7 @@ class CSVQueueWriter(QueueWriter):
     def flush(self):
         logger.debug(
             f"{self.name}: Flushing {len(self.results)} into {self.file_name}.")
-        with open(self.file_name, "a",  newline='') as result_file:
+        with open(self.file_name, "a",  newline='', encoding="utf-8") as result_file:
             csv_writer = csv.writer(result_file)
             while self.results:
                 row = self.results.popleft()
